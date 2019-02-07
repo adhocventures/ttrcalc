@@ -49,17 +49,18 @@
       </b-row>
       <b-row>
         <b-col>
-          <b-button-group v-if="false">
+          <div class="route-btn-group">
             <b-button
               v-for="(value, index) in btnConfig"
               :key="index"
               @click.stop="addRoute(value);"
               variant="info"
+              size="sm"
               class="px-3 route-add-button"
             >
               {{ value.trains }}
             </b-button>
-          </b-button-group>
+          </div>
         </b-col>
       </b-row>
     </b-container>
