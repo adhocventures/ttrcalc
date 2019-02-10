@@ -53,54 +53,21 @@ var resultStorage = {
 var tempScores = [
   {
     name: "Player Name",
-    routes: [
-      {
-        trains: 1,
-        points: 1
-      },
-      {
-        trains: 3,
-        points: 4
-      }
-    ],
+    routes: [],
     longestRoute: false,
     unusedStations: 3,
     destinationAdds: 0,
     destinationSubs: 0,
     score: {
-      routes: 5,
+      routes: 0,
       stations: 12,
       longestRoute: 0,
       destAdd: 0,
       destSub: 0,
-      total: 17
+      total: 12
     }
   },
-  {
-    name: "Bob",
-    routes: [
-      {
-        trains: 1,
-        points: 1
-      },
-      {
-        trains: 3,
-        points: 4
-      }
-    ],
-    longestRoute: false,
-    unusedStations: 0,
-    destinationAdds: 0,
-    destinationSubs: 0,
-    score: {
-      routes: 0,
-      stations: 0,
-      longestRoute: 0,
-      destAdd: 0,
-      destSub: 0,
-      total: 0
-    }
-  }
+  
 ];
 
 export default {
@@ -122,7 +89,6 @@ export default {
           { trains: 2, points: 2 },
           { trains: 3, points: 4 },
           { trains: 4, points: 7 },
-          { trains: 5, points: 10 },
           { trains: 6, points: 15 },
           { trains: 8, points: 21 }
         ]

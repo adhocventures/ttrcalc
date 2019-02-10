@@ -35,15 +35,15 @@
                 >x</b-button
               >
             </template>
-            <template slot="FOOT_trains" slot-scope="data">
+            <template slot="FOOT_trains" >
               <!-- A custom formatted footer cell  for field 'name' -->
               {{ sumTrains }} Trains
             </template>
-            <template slot="FOOT_points" slot-scope="data">
+            <template slot="FOOT_points" >
               <!-- A custom formatted footer cell  for field 'name' -->
               {{ sumPoints }} Points
             </template>
-            <template slot="FOOT_delete" slot-scope="data"> </template>
+            <template slot="FOOT_delete" > </template>
           </b-table>
         </b-col>
       </b-row>
